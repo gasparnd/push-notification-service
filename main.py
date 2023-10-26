@@ -6,7 +6,7 @@ from exponent_server_sdk import PushMessage
 from pydantic import BaseModel
 
 deep_link = 'com.yourApp.app://'
-NOTIFICATION_TOKEN = 'ExponentPushToken[NoDNqBKFbdAo2x-XND8COj]'
+NOTIFICATION_TOKEN = 'ExponentPushToken[NoDNqBKFbdAo2x-XND8COjm]'
 
 app = FastAPI()
 
