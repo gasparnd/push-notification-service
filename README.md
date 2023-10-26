@@ -46,13 +46,13 @@ $ uvicorn main:app --reload
 
 ## How to use it
 
-1. Update the notification token to your device
+1. Update the notification token with your device
 
 ```
 NOTIFICATION_TOKEN = "YOUR NOTIFICATION TOKEN HERE"
 ```
 
-2. Use the post method _*send_notification*_ . It revice the next values to send a notification:
+2. Use the post method _*send_notification*_ . It needs the next values to send a notification:
 
 ```
 {
@@ -64,7 +64,7 @@ NOTIFICATION_TOKEN = "YOUR NOTIFICATION TOKEN HERE"
 }
 ```
 
-## How to send diferent data?
+## How to send different data?
 
 Update the "NotifactionModel", and "PushMessage" method.
 
